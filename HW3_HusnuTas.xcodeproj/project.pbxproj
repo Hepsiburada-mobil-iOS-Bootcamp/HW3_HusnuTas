@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCED439D270C42E900234EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439C270C42E900234EEF /* AppDelegate.swift */; };
+		BCED439F270C42E900234EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439E270C42E900234EEF /* SceneDelegate.swift */; };
+		BCED43A1270C42E900234EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43A0270C42E900234EEF /* ViewController.swift */; };
+		BCED43A4270C42E900234EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A2270C42E900234EEF /* Main.storyboard */; };
+		BCED43A6270C42EC00234EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A5270C42EC00234EEF /* Assets.xcassets */; };
+		BCED43A9270C42EC00234EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */; };
+		BCED43B4270C42EC00234EEF /* HW3_HusnuTasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43B3270C42EC00234EEF /* HW3_HusnuTasTests.swift */; };
+		BCED43BE270C42EC00234EEF /* HW3_HusnuTasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43BD270C42EC00234EEF /* HW3_HusnuTasUITests.swift */; };
+		BCED43C0270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCED43B0270C42EC00234EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCED4391270C42E900234EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCED4398270C42E900234EEF;
+			remoteInfo = HW3_HusnuTas;
+		};
+		BCED43BA270C42EC00234EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCED4391270C42E900234EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCED4398270C42E900234EEF;
+			remoteInfo = HW3_HusnuTas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCED4399270C42E900234EEF /* HW3_HusnuTas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_HusnuTas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCED439C270C42E900234EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCED439E270C42E900234EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCED43A0270C42E900234EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCED43A3270C42E900234EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCED43A5270C42EC00234EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCED43A8270C42EC00234EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCED43AA270C42EC00234EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCED43AF270C42EC00234EEF /* HW3_HusnuTasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3_HusnuTasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCED43B3270C42EC00234EEF /* HW3_HusnuTasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_HusnuTasTests.swift; sourceTree = "<group>"; };
+		BCED43B9270C42EC00234EEF /* HW3_HusnuTasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3_HusnuTasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCED43BD270C42EC00234EEF /* HW3_HusnuTasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_HusnuTasUITests.swift; sourceTree = "<group>"; };
+		BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_HusnuTasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCED4396270C42E900234EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43AC270C42EC00234EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43B6270C42EC00234EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCED4390270C42E900234EEF = {
+			isa = PBXGroup;
+			children = (
+				BCED439B270C42E900234EEF /* HW3_HusnuTas */,
+				BCED43B2270C42EC00234EEF /* HW3_HusnuTasTests */,
+				BCED43BC270C42EC00234EEF /* HW3_HusnuTasUITests */,
+				BCED439A270C42E900234EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCED439A270C42E900234EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCED4399270C42E900234EEF /* HW3_HusnuTas.app */,
+				BCED43AF270C42EC00234EEF /* HW3_HusnuTasTests.xctest */,
+				BCED43B9270C42EC00234EEF /* HW3_HusnuTasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCED439B270C42E900234EEF /* HW3_HusnuTas */ = {
+			isa = PBXGroup;
+			children = (
+				BCED439C270C42E900234EEF /* AppDelegate.swift */,
+				BCED439E270C42E900234EEF /* SceneDelegate.swift */,
+				BCED43A0270C42E900234EEF /* ViewController.swift */,
+				BCED43A2270C42E900234EEF /* Main.storyboard */,
+				BCED43A5270C42EC00234EEF /* Assets.xcassets */,
+				BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */,
+				BCED43AA270C42EC00234EEF /* Info.plist */,
+			);
+			path = HW3_HusnuTas;
+			sourceTree = "<group>";
+		};
+		BCED43B2270C42EC00234EEF /* HW3_HusnuTasTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCED43B3270C42EC00234EEF /* HW3_HusnuTasTests.swift */,
+			);
+			path = HW3_HusnuTasTests;
+			sourceTree = "<group>";
+		};
+		BCED43BC270C42EC00234EEF /* HW3_HusnuTasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCED43BD270C42EC00234EEF /* HW3_HusnuTasUITests.swift */,
+				BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */,
+			);
+			path = HW3_HusnuTasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCED4398270C42E900234EEF /* HW3_HusnuTas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCED43C3270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTas" */;
+			buildPhases = (
+				BCED4395270C42E900234EEF /* Sources */,
+				BCED4396270C42E900234EEF /* Frameworks */,
+				BCED4397270C42E900234EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HW3_HusnuTas;
+			productName = HW3_HusnuTas;
+			productReference = BCED4399270C42E900234EEF /* HW3_HusnuTas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCED43AE270C42EC00234EEF /* HW3_HusnuTasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCED43C6270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTasTests" */;
+			buildPhases = (
+				BCED43AB270C42EC00234EEF /* Sources */,
+				BCED43AC270C42EC00234EEF /* Frameworks */,
+				BCED43AD270C42EC00234EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCED43B1270C42EC00234EEF /* PBXTargetDependency */,
+			);
+			name = HW3_HusnuTasTests;
+			productName = HW3_HusnuTasTests;
+			productReference = BCED43AF270C42EC00234EEF /* HW3_HusnuTasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCED43B8270C42EC00234EEF /* HW3_HusnuTasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCED43C9270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTasUITests" */;
+			buildPhases = (
+				BCED43B5270C42EC00234EEF /* Sources */,
+				BCED43B6270C42EC00234EEF /* Frameworks */,
+				BCED43B7270C42EC00234EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCED43BB270C42EC00234EEF /* PBXTargetDependency */,
+			);
+			name = HW3_HusnuTasUITests;
+			productName = HW3_HusnuTasUITests;
+			productReference = BCED43B9270C42EC00234EEF /* HW3_HusnuTasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCED4391270C42E900234EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BCED4398270C42E900234EEF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BCED43AE270C42EC00234EEF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BCED4398270C42E900234EEF;
+					};
+					BCED43B8270C42EC00234EEF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BCED4398270C42E900234EEF;
+					};
+				};
+			};
+			buildConfigurationList = BCED4394270C42E900234EEF /* Build configuration list for PBXProject "HW3_HusnuTas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCED4390270C42E900234EEF;
+			productRefGroup = BCED439A270C42E900234EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCED4398270C42E900234EEF /* HW3_HusnuTas */,
+				BCED43AE270C42EC00234EEF /* HW3_HusnuTasTests */,
+				BCED43B8270C42EC00234EEF /* HW3_HusnuTasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCED4397270C42E900234EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED43A9270C42EC00234EEF /* LaunchScreen.storyboard in Resources */,
+				BCED43A6270C42EC00234EEF /* Assets.xcassets in Resources */,
+				BCED43A4270C42E900234EEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43AD270C42EC00234EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43B7270C42EC00234EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCED4395270C42E900234EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED43A1270C42E900234EEF /* ViewController.swift in Sources */,
+				BCED439D270C42E900234EEF /* AppDelegate.swift in Sources */,
+				BCED439F270C42E900234EEF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43AB270C42EC00234EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED43B4270C42EC00234EEF /* HW3_HusnuTasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCED43B5270C42EC00234EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED43C0270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift in Sources */,
+				BCED43BE270C42EC00234EEF /* HW3_HusnuTasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCED43B1270C42EC00234EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCED4398270C42E900234EEF /* HW3_HusnuTas */;
+			targetProxy = BCED43B0270C42EC00234EEF /* PBXContainerItemProxy */;
+		};
+		BCED43BB270C42EC00234EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCED4398270C42E900234EEF /* HW3_HusnuTas */;
+			targetProxy = BCED43BA270C42EC00234EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCED43A2270C42E900234EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCED43A3270C42E900234EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCED43A8270C42EC00234EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCED43C1270C42EC00234EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCED43C2270C42EC00234EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCED43C4270C42EC00234EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HW3_HusnuTas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCED43C5270C42EC00234EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HW3_HusnuTas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCED43C7270C42EC00234EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW3_HusnuTas.app/HW3_HusnuTas";
+			};
+			name = Debug;
+		};
+		BCED43C8270C42EC00234EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW3_HusnuTas.app/HW3_HusnuTas";
+			};
+			name = Release;
+		};
+		BCED43CA270C42EC00234EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HW3_HusnuTas;
+			};
+			name = Debug;
+		};
+		BCED43CB270C42EC00234EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BAW85345C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husnutas.HW3-HusnuTasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HW3_HusnuTas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCED4394270C42E900234EEF /* Build configuration list for PBXProject "HW3_HusnuTas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED43C1270C42EC00234EEF /* Debug */,
+				BCED43C2270C42EC00234EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCED43C3270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED43C4270C42EC00234EEF /* Debug */,
+				BCED43C5270C42EC00234EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCED43C6270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED43C7270C42EC00234EEF /* Debug */,
+				BCED43C8270C42EC00234EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCED43C9270C42EC00234EEF /* Build configuration list for PBXNativeTarget "HW3_HusnuTasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED43CA270C42EC00234EEF /* Debug */,
+				BCED43CB270C42EC00234EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCED4391270C42E900234EEF /* Project object */;
+}
