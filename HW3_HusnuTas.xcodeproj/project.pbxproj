@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		BCED439D270C42E900234EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439C270C42E900234EEF /* AppDelegate.swift */; };
 		BCED439F270C42E900234EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439E270C42E900234EEF /* SceneDelegate.swift */; };
-		BCED43A1270C42E900234EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43A0270C42E900234EEF /* ViewController.swift */; };
-		BCED43A4270C42E900234EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A2270C42E900234EEF /* Main.storyboard */; };
 		BCED43A6270C42EC00234EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A5270C42EC00234EEF /* Assets.xcassets */; };
 		BCED43A9270C42EC00234EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */; };
 		BCED43B4270C42EC00234EEF /* HW3_HusnuTasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43B3270C42EC00234EEF /* HW3_HusnuTasTests.swift */; };
 		BCED43BE270C42EC00234EEF /* HW3_HusnuTasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43BD270C42EC00234EEF /* HW3_HusnuTasUITests.swift */; };
 		BCED43C0270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */; };
+		BCED43D5270E2B9200234EEF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43D4270E2B9200234EEF /* MainViewModel.swift */; };
+		BCED43D7270E2BAD00234EEF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43D6270E2BAD00234EEF /* MainViewController.swift */; };
+		BCED43D9270E2BC800234EEF /* MainViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43D8270E2BC800234EEF /* MainViewBuilder.swift */; };
+		BCED43DF270E2D5900234EEF /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43DB270E2D5900234EEF /* GenericValueProtocol.swift */; };
+		BCED43E0270E2D5900234EEF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43DC270E2D5900234EEF /* BaseViewController.swift */; };
+		BCED43E1270E2D5900234EEF /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43DD270E2D5900234EEF /* GenericBaseView.swift */; };
+		BCED43E2270E2D5900234EEF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED43DE270E2D5900234EEF /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		BCED4399270C42E900234EEF /* HW3_HusnuTas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3_HusnuTas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCED439C270C42E900234EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCED439E270C42E900234EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCED43A0270C42E900234EEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCED43A3270C42E900234EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCED43A5270C42EC00234EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCED43A8270C42EC00234EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCED43AA270C42EC00234EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		BCED43B9270C42EC00234EEF /* HW3_HusnuTasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW3_HusnuTasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCED43BD270C42EC00234EEF /* HW3_HusnuTasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_HusnuTasUITests.swift; sourceTree = "<group>"; };
 		BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_HusnuTasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCED43D4270E2B9200234EEF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BCED43D6270E2BAD00234EEF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BCED43D8270E2BC800234EEF /* MainViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBuilder.swift; sourceTree = "<group>"; };
+		BCED43DB270E2D5900234EEF /* GenericValueProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		BCED43DC270E2D5900234EEF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BCED43DD270E2D5900234EEF /* GenericBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		BCED43DE270E2D5900234EEF /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		BCED439B270C42E900234EEF /* HW3_HusnuTas */ = {
 			isa = PBXGroup;
 			children = (
+				BCED43DA270E2D5900234EEF /* BaseComponents */,
+				BCED43D2270E2B6D00234EEF /* SceneModules */,
 				BCED439C270C42E900234EEF /* AppDelegate.swift */,
 				BCED439E270C42E900234EEF /* SceneDelegate.swift */,
-				BCED43A0270C42E900234EEF /* ViewController.swift */,
-				BCED43A2270C42E900234EEF /* Main.storyboard */,
 				BCED43A5270C42EC00234EEF /* Assets.xcassets */,
 				BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */,
 				BCED43AA270C42EC00234EEF /* Info.plist */,
@@ -125,6 +135,35 @@
 				BCED43BF270C42EC00234EEF /* HW3_HusnuTasUITestsLaunchTests.swift */,
 			);
 			path = HW3_HusnuTasUITests;
+			sourceTree = "<group>";
+		};
+		BCED43D2270E2B6D00234EEF /* SceneModules */ = {
+			isa = PBXGroup;
+			children = (
+				BCED43D3270E2B7D00234EEF /* Main */,
+			);
+			path = SceneModules;
+			sourceTree = "<group>";
+		};
+		BCED43D3270E2B7D00234EEF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BCED43D4270E2B9200234EEF /* MainViewModel.swift */,
+				BCED43D6270E2BAD00234EEF /* MainViewController.swift */,
+				BCED43D8270E2BC800234EEF /* MainViewBuilder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BCED43DA270E2D5900234EEF /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BCED43DB270E2D5900234EEF /* GenericValueProtocol.swift */,
+				BCED43DC270E2D5900234EEF /* BaseViewController.swift */,
+				BCED43DD270E2D5900234EEF /* GenericBaseView.swift */,
+				BCED43DE270E2D5900234EEF /* BaseView.swift */,
+			);
+			path = BaseComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +272,6 @@
 			files = (
 				BCED43A9270C42EC00234EEF /* LaunchScreen.storyboard in Resources */,
 				BCED43A6270C42EC00234EEF /* Assets.xcassets in Resources */,
-				BCED43A4270C42E900234EEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCED43A1270C42E900234EEF /* ViewController.swift in Sources */,
+				BCED43D5270E2B9200234EEF /* MainViewModel.swift in Sources */,
+				BCED43DF270E2D5900234EEF /* GenericValueProtocol.swift in Sources */,
+				BCED43E1270E2D5900234EEF /* GenericBaseView.swift in Sources */,
+				BCED43D7270E2BAD00234EEF /* MainViewController.swift in Sources */,
+				BCED43E0270E2D5900234EEF /* BaseViewController.swift in Sources */,
+				BCED43D9270E2BC800234EEF /* MainViewBuilder.swift in Sources */,
 				BCED439D270C42E900234EEF /* AppDelegate.swift in Sources */,
+				BCED43E2270E2D5900234EEF /* BaseView.swift in Sources */,
 				BCED439F270C42E900234EEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCED43A2270C42E900234EEF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCED43A3270C42E900234EEF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCED43A7270C42EC00234EEF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +480,6 @@
 				INFOPLIST_FILE = HW3_HusnuTas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +507,6 @@
 				INFOPLIST_FILE = HW3_HusnuTas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
