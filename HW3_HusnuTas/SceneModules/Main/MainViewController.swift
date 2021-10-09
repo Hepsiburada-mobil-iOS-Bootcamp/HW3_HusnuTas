@@ -30,6 +30,8 @@ class MainViewController: BaseViewController<MainViewModel> {
     
     @objc func navigationButtonAction(_ sender: UIButton) {
         print("navigate")
+        let viewController = TestViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
 
 }

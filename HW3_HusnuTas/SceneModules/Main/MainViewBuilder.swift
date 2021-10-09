@@ -14,7 +14,20 @@ class MainViewBuilder {
         let viewModel = MainViewModel()
         let viewController = MainViewController(viewModel: viewModel)
         
-        return viewController
+        // add navigation controller and give mainViewController as root
+        let navigationController = UINavigationController(rootViewController: viewController)
+        
+        viewController.title = "Main"
+        
+        // set navigation icons
+        viewController.tabBarItem.image = TabBarImages.home.value
+        viewController.tabBarItem.selectedImage = TabBarImages.homeSelected.value
+        
+        // hide navigation bar
+//        navigationController.setNavigationBarHidden(true, animated: false)
+//        viewController.navigationController?.setNavigationBarHidden(true, animated: false)
+        
+        return navigationController
         
     }
     
