@@ -19,6 +19,7 @@
 		BCC395F427124271001A19FD /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC395F327124271001A19FD /* FavoriteViewModel.swift */; };
 		BCC395F627124290001A19FD /* FavoriteViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC395F527124290001A19FD /* FavoriteViewBuilder.swift */; };
 		BCC395F927124F0E001A19FD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC395F827124F0E001A19FD /* TestViewController.swift */; };
+		BCC395FC27125947001A19FD /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BCC395FB27125947001A19FD /* DefaultNetworkOperationPackage */; };
 		BCED439D270C42E900234EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439C270C42E900234EEF /* AppDelegate.swift */; };
 		BCED439F270C42E900234EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED439E270C42E900234EEF /* SceneDelegate.swift */; };
 		BCED43A6270C42EC00234EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED43A5270C42EC00234EEF /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC395FC27125947001A19FD /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +289,9 @@
 			dependencies = (
 			);
 			name = HW3_HusnuTas;
+			packageProductDependencies = (
+				BCC395FB27125947001A19FD /* DefaultNetworkOperationPackage */,
+			);
 			productName = HW3_HusnuTas;
 			productReference = BCED4399270C42E900234EEF /* HW3_HusnuTas.app */;
 			productType = "com.apple.product-type.application";
@@ -359,6 +364,9 @@
 				Base,
 			);
 			mainGroup = BCED4390270C42E900234EEF;
+			packageReferences = (
+				BCC395FA27125947001A19FD /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+			);
 			productRefGroup = BCED439A270C42E900234EEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -774,6 +782,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCC395FA27125947001A19FD /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/husnutass/DefaultNetworkOperationPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCC395FB27125947001A19FD /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCC395FA27125947001A19FD /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
+			productName = DefaultNetworkOperationPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCED4391270C42E900234EEF /* Project object */;
 }
