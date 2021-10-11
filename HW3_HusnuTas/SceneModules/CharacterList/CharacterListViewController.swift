@@ -7,23 +7,55 @@
 
 import UIKit
 
-class CharacterListViewController: UIViewController {
+class CharacterListViewController: BaseViewController<CharacterListViewModel> {
+    
+    deinit {
+        print("DEINIT CharacterListViewController")
+    }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    private var itemListView: ItemListView!
+    
+    override func prepareViewControllerConfigurations() {
+        super.prepareViewControllerConfigurations()
+        addMainComponent()
+        subscribeViewModelListeners()
+        viewModel.getCharacterList()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
-    */
+    
+    func addMainComponent() {
+        itemListView = ItemListView()
+        itemListView.translatesAutoresizingMaskIntoConstraints = false
+        itemListView.delegate = viewModel
+        view.addSubview(itemListView)
+        
+        NSLayoutConstraint.activate([
+            itemListView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            itemListView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            itemListView.topAnchor.constraint(equalTo: view.topAnchor),
+            itemListView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        
+    }
+    
+    private func subscribeViewModelListeners() {
+        viewModel.subscribeState { [weak self] state in
+            switch state{
+            case .loading:
+                print("data is getting")
+            case .done:
+                print("data is ready")
+                self?.itemListView.reloadTableView()
+            case .failure:
+                print("error")
+            }
+        }
+    }
 
 }
+
+

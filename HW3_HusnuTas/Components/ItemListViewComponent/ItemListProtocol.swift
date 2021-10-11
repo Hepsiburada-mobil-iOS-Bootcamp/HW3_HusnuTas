@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol ItemListProtocol: AnyObject {
+    
+    func getNumberOfSections() -> Int
+    func getNumberOfRows(in section: Int) -> Int
+    func getData(at index: Int) -> GenericDataProtocol?
+    
+}

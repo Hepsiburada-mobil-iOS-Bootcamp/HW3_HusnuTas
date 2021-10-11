@@ -16,6 +16,11 @@ class MainViewController: BaseViewController<MainViewModel> {
         temp.setTitle("PUSH", for: .normal)
         return temp
     }()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
         
     override func prepareViewControllerConfigurations() {
         super.prepareViewControllerConfigurations()
@@ -30,7 +35,8 @@ class MainViewController: BaseViewController<MainViewModel> {
     
     @objc func navigationButtonAction(_ sender: UIButton) {
         print("navigate")
-        let viewController = TestViewController()
+        //let viewController = TestViewController()
+        let viewController = CharacterListViewBuilder.build()
         self.navigationController?.pushViewController(viewController, animated: true)
     }
 

@@ -13,11 +13,12 @@ class CustomImageViewComponentContainer: GenericBaseView<CustomImageViewComponen
         let temp = CustomImageViewComponent()
         temp.translatesAutoresizingMaskIntoConstraints = false
         temp.clipsToBounds = true
+        temp.layer.cornerRadius = 6
         return temp
     }()
     
-    override func addMajorFields() {
-        super.addMajorFields()
+    override func addMajorViewComponents() {
+        super.addMajorViewComponents()
         
         addCustomImageView()
     }
@@ -35,8 +36,8 @@ class CustomImageViewComponentContainer: GenericBaseView<CustomImageViewComponen
         ])
     }
 
-    override func loadDataToView() {
-        super.loadDataToView()
+    override func loadDataView() {
+        super.loadDataView()
         guard let data = returnData() else { return }
         customImageView.setData(componentData: data)
         customImageView.contentMode = data.contentMode

@@ -5,4 +5,67 @@
 //  Created by Hüsnü Taş on 10.10.2021.
 //
 
-import Foundation
+import UIKit
+
+class ItemListView: BaseView {
+    
+    deinit {
+        print("DENINIT ItemListView")
+    }
+    
+    weak var delegate: ItemListProtocol?
+    
+    private lazy var tableView: UITableView = {
+        let temp = UITableView()
+        temp.translatesAutoresizingMaskIntoConstraints = false
+        temp.delegate = self
+        temp.dataSource = self
+        temp.register(ItemTableViewCell.self, forCellReuseIdentifier: ItemTableViewCell.identifier)
+        return temp
+    }()
+    
+    override func addMajorViewComponents() {
+        super.addMajorViewComponents()
+        addTableView()
+    }
+    
+    private func addTableView() {
+        addSubview(tableView)
+        
+        NSLayoutConstraint.activate([
+            tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            tableView.topAnchor.constraint(equalTo: topAnchor),
+            tableView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+    }
+    
+    func reloadTableView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+        
+    }
+    
+}
+
+extension ItemListView: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let data = delegate?.getData(at: indexPath.row) else { fatalError("Please provide data.") }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ItemTableViewCell.identifier, for: indexPath) as? ItemTableViewCell else { return UITableViewCell() }
+        
+        cell.setData(by: data)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return delegate?.getNumberOfRows(in: section) ?? 0
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return delegate?.getNumberOfSections() ?? 0
+    }
+    
+}
+

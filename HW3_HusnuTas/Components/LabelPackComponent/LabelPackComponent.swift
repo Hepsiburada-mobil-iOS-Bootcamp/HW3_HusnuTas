@@ -12,10 +12,10 @@ class LabelPackComponent: GenericBaseView<LabelPackComponentData> {
     private lazy var mainStackView: UIView = {
         let temp = UIStackView(arrangedSubviews: [titleLabel, subTitleLabel])
         temp.translatesAutoresizingMaskIntoConstraints = false
-        temp.alignment = .center
+        temp.alignment = .fill
         temp.distribution = .fill
         temp.axis = .vertical
-        temp.spacing = 20
+        temp.spacing = 5
         return temp
     }()
     
@@ -47,6 +47,7 @@ class LabelPackComponent: GenericBaseView<LabelPackComponentData> {
     override func addMajorViewComponents() {
         super.addMajorViewComponents()
         addUserComponents()
+        setupSubTitleConfigurations()
     }
     
     /// Adds  mainStackView to base view
@@ -67,6 +68,15 @@ class LabelPackComponent: GenericBaseView<LabelPackComponentData> {
         guard let data = returnData() else { return }
         titleLabel.text = data.title
         subTitleLabel.text = data.subTitle
+    }
+    
+    /// Loads and sets the data for the labels
+    func setupSubTitleConfigurations() {
+        guard let data = returnData() else { return }
+        subTitleLabel.numberOfLines = data.labelPackComponentModifier.numberOfLines
+        subTitleLabel.textAlignment = data.labelPackComponentModifier.textAlignment
+        subTitleLabel.lineBreakMode = data.labelPackComponentModifier.lineBreakMode
+        subTitleLabel.contentMode = data.labelPackComponentModifier.contentMode
     }
     
 }
